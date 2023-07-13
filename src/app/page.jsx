@@ -1,4 +1,4 @@
-
+"use client"
 import Image from "next/image"
 import GetCountries from "./libs/GetCountries"
 import {BiMap} from 'react-icons/bi'
