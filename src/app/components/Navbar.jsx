@@ -2,7 +2,7 @@ import Link from "next/link"
 export default function Navbar() {
   return (
     <nav>
-    <ul className='flex justify-between text-xl capitalize h-[100px] bg-sky-700 text-white items-center'>
+    <ul className='flex  justify-between text-xl capitalize h-[100px] bg-sky-700 text-white items-center'>
 
         <Link href='/'>
         <li>All</li>

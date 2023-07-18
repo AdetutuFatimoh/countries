@@ -20,7 +20,7 @@ export default async function Home(){
   return(
     <div>
       <h1 className="flex flex-col items-center h-[50px] justify-center m-4 bg-slate-600 text-white">Oceania Countries</h1>
-       <div className="grid grid-cols-3 gap-2">
+       <div className="grid md:grid-cols-3 grid-cols-1 gap-2">
         {countries}
        </div>
       <footer className="flex flex-col items-center h-[50px] justify-center m-4 bg-slate-600 text-white">
